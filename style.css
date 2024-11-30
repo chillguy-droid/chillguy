@@ -29,7 +29,8 @@ body, html {
 /* Image styling */
 .photo {
   margin-top: 20px;
-  max-width: 90%;
+  max-width: 60%; /* Limite à 60% de la largeur */
+  max-height: 400px; /* Limite la hauteur max */
   height: auto;
   border-radius: 10px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
@@ -43,7 +44,8 @@ body, html {
   }
 
   .photo {
-    width: 80%;
+    max-width: 80%; /* Plus petit sur mobile */
+    max-height: 300px; /* Réduit la hauteur sur mobile */
   }
 }
 
